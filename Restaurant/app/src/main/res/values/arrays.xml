@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="meals_names">
+        <item>Classic Pizza - Vegetarian</item>
+        <item>Classic Pizza - Tuna</item>
+        <item>Classic Pizza - Super Supreme</item>
+        <item>Classic Pizza - Prawns</item>
+        <item>Classic Pizza - Margarita</item>
+        <item>Classic Pizza - Pepperoni</item>
+    </string-array>
+    <string-array name="meals_descs">
+        <item>Mushrooms, green peppers, Fresh Tomatoes, Onions and Black Olives Loaded on a tomato base and topped with melting mozzarella cheese</item>
+        <item>indulge in a flavorful combination of Tuna , Black Olives , Green Peppers and topped with melting mozzarella</item>
+        <item>Our famous combination of Beef Pepperoni , Juicy Beef, Mushrooms, Green Peppers , Onions , Black Olives and melting mozzarella</item>
+        <item>A mouth-watering combination of Prawns , Black Olives , Green Peppers and a touch of Garlic</item>
+        <item>Go back to where it all began with the classic cheese and tomato base</item>
+        <item>One of our all time specialties. A meaty feast of Pepperoni , Mushroom , Black Olives , mozzarella cheese and tomato sauce </item>
+    </string-array>
+    <string-array name="meals_prices">
+
+        <item>49.00</item>
+        <item>49.00</item>
+        <item>60.99</item>
+        <item>74.50</item>
+        <item>34.50</item>
+        <item>49.00</item>
+    </string-array>
+    <string-array name="mmeals_prices">
+
+        <item>70.00</item>
+        <item>70.00</item>
+        <item>85.99</item>
+        <item>90.50</item>
+        <item>50.50</item>
+        <item>70.00</item>
+    </string-array>
+    <string-array name="lmeals_prices">
+
+        <item>90.00</item>
+        <item>90.00</item>
+        <item>100.99</item>
+        <item>110.50</item>
+        <item>70.50</item>
+        <item>90.00</item>
+    </string-array>
+
+
+
+
+    <string-array name="drinks_names">
+        <item>Pepsi Can</item>
+        <item>Pepsi Liter</item>
+        <item>Diet Pepsi Liter</item>
+        <item>Diet Pepsi Can</item>
+        <item>7 Up Can</item>
+        <item>7 Up Liter</item>
+        <item>Mineral Water</item>
+    </string-array>
+    <string-array name="drinks_prices">
+
+        <item>13.00</item>
+        <item>17.00</item>
+        <item>17.99</item>
+        <item>13.50</item>
+        <item>13.50</item>
+        <item>17.00</item>
+        <item>Price on selection</item>
+    </string-array>
+
+
+
+
+</resources>

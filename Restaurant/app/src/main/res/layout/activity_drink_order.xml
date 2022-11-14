@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DrinkOrder"
+        android:orientation="vertical"
+        android:id="@+id/order_layout"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:contentDescription="@string/drink_image_hint"
+            android:id="@+id/drink_img"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allerta"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/drink_name"
+            android:padding="16dp"
+            />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/basic"
+            android:id="@+id/drink_price"
+            android:paddingTop="8dp"
+            android:paddingLeft="16dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:paddingStart="16dp"
+            tools:ignore="RtlSymmetry" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#6A000000"
+            android:layout_marginTop="16dp"
+            />
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/minus"
+                android:textSize="40sp"
+                android:textColor="#DF402A"
+                android:paddingRight="40dp"
+                android:paddingEnd="40dp"
+                tools:ignore="RtlSymmetry"
+                android:id="@+id/decrease"
+                />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:paddingLeft="16dp"
+                android:fontFamily="@font/landasans_medium"
+                android:paddingStart="16dp"
+                android:textStyle="bold"
+                android:text="@string/quantity"
+                android:id="@+id/quantity"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/increase"
+                android:textSize="40sp"
+                android:textColor="#DF402A"
+                android:paddingLeft="26dp"
+                android:paddingStart="26dp"
+                tools:ignore="RtlSymmetry"
+                android:id="@+id/increase"
+                />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/staple_view"
+        android:orientation="horizontal"
+        android:id="@+id/add_to_card"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:id="@+id/total"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/add_to_basket"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+

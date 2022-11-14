@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="home">Home</string>
+    <string name="profile">My Profile</string>
+    <string name="orders">My Orders</string>
+    <string name="sign_out">Sign Out</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_page_sentence">What would you like to order ?</string>
+    <string name="image_desc1">food</string>
+    <string name="image_desc2">juice</string>
+    <string name="meal_price">EGP 20.50</string>
+    <string name="meal_image_hint">meal_image</string>
+    <string name="please_choose">Please Choose</string>
+    <string name="choose_1">Choose 1</string>
+    <string name="small">small</string>
+    <string name="medium">medium</string>
+    <string name="large">Large</string>
+    <string name="minus">-</string>
+    <string name="increase">+</string>
+    <string name="quantity">1</string>
+    <string name="drink_image_hint">drink_image</string>
+    <string name="add_to_basket">Add to basket</string>
+    <string name="view_basket">View Your Basket</string>
+</resources>
